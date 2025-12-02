@@ -1,0 +1,95 @@
+# -------------------------------
+# OS / Editor / IDE junk
+# -------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# VSCode
+.vscode/
+.history/
+
+# PyCharm / IntelliJ
+.idea/
+
+# -------------------------------
+# Python build / env artifacts
+# -------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env/
+.conda/
+*.egg-info/
+.eggs/
+
+# Build / dist
+build/
+dist/
+pip-wheel-metadata/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# -------------------------------
+# Logs and debug outputs
+# -------------------------------
+logs/
+*.log
+*.out
+*.err
+
+# -------------------------------
+# Data / models / cache
+# -------------------------------
+data/
+datasets/
+checkpoints/
+models/
+cache/
+.cache/
+.tmp/
+tmp/
+
+# Hugging Face cache (if any)
+.huggingface/
+transformers_cache/
+
+# -------------------------------
+# JSON / JSONL (requested)
+# -------------------------------
+*.json
+*.jsonl
+
+# If you want to track specific JSON files, you can override like:
+# !config/example_config.json
+
+# -------------------------------
+# Images / figures (optional)
+# -------------------------------
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.tiff
+*.bmp
+
+# Uncomment this if you want to ignore PDFs, too:
+# *.pdf
+
+# -------------------------------
+# Misc
+# -------------------------------
+*.sqlite
+*.db
+*.lock
